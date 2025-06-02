@@ -1,0 +1,7 @@
+menu "OpenSSL"
+  config OPENSSL_COMPILE_FROM_SOURCE
+      bool "compile openssl from souce code"
+      default n
+      help
+        compile openssl from source code, or use system libs
+endmenu
